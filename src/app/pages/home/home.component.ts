@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-
+  titulo:string = "Welcome";
+  mensaje:string = "Saludos, soy un mensaje de prueba."
 }
